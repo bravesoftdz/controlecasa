@@ -1,0 +1,74 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LuzesActivity" >
+    
+    <ToggleButton
+        android:id="@+id/tgbtnLampadaSala"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:layout_x="5dp"
+        android:layout_y="95dp"
+        android:textOff="@string/botao_lampadaSalaDesligada"
+        android:textOn="@string/botao_lampadaSalaLigada" />
+
+    <ToggleButton
+        android:id="@+id/tgbtnLampadaCozinha"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:layout_x="152dp"
+        android:layout_y="95dp"
+        android:textOff="@string/botao_lampadaCozinhaDesligada"
+        android:textOn="@string/botao_lampadaCozinhaLigada" />
+
+    <ToggleButton
+        android:id="@+id/tgbtnLampadaHall"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:layout_x="5dp"
+        android:layout_y="180dp"
+        android:textOff="@string/botao_lampadaHallDesligada"
+        android:textOn="@string/botao_lampadaHallLigada" />
+
+    <ToggleButton
+        android:id="@+id/tgbtnLampadaBanheiro"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:layout_x="152dp"
+        android:layout_y="180dp"
+        android:textOff="@string/botao_lampadaBanheiroDesligada"
+        android:textOn="@string/botao_lampadaBanheiroLigada" />
+    
+    <ToggleButton
+        android:id="@+id/tgbtnLampadaQuarto01"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:layout_x="5dp"
+        android:layout_y="265dp"
+        android:textOff="@string/botao_lampadaQuarto01Desligada"
+        android:textOn="@string/botao_lampadaQuarto01Ligada" />
+
+    <ToggleButton
+        android:id="@+id/tgbtnLampadaQuarto02"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:layout_x="152dp"
+        android:layout_y="265dp"
+        android:textOff="@string/botao_lampadaQuarto02Desligada"
+        android:textOn="@string/botao_lampadaQuarto02Ligada" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="123dp"
+        android:layout_y="2dp"
+        android:text="@string/tituloLuzes"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</AbsoluteLayout>
